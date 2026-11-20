@@ -1,0 +1,20 @@
+name: covid_notify
+description: App Flutter que consulta datos de COVID-19 y envia notificaciones locales.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_local_notifications: ^19.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
